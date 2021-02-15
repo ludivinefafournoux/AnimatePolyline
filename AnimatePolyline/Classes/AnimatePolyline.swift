@@ -34,7 +34,7 @@ open class AnimatePolyline {
 
     public init(mapView: GMSMapView) {
         makePolylines(mapView: mapView)
-        makeMarkers(mapView: mapView)
+        //makeMarkers(mapView: mapView)
         displaylink = CADisplayLink(target: self, selector: #selector(step))
     }
 
