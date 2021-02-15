@@ -52,12 +52,12 @@ open class AnimatePolyline {
 
     private func makePolylines(mapView: GMSMapView) {
         currentSegment = GMSPolyline(path: route.path)
-        currentSegment.strokeWidth = 3.0
+        currentSegment.strokeWidth = 4.0
         currentSegment.strokeColor = strokeColor
         currentSegment.map = mapView
 
         backgroundSegment = GMSPolyline(path: route.path)
-        backgroundSegment.strokeWidth = 3.0
+        backgroundSegment.strokeWidth = 4.0
         backgroundSegment.map = mapView
     }
 
